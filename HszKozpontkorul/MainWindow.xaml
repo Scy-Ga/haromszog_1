@@ -1,0 +1,66 @@
+﻿<Window x:Class="HszKozpontkorul.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HszKozpontkorul"
+        mc:Ignorable="d"
+        Title="Háromszög Elforgatás Közeppont körül" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="LightCyan">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="grid_menu" Grid.Column="0" Background="LightCyan">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Label x:Name="lb_elso" Grid.Row="0" Content="X1 és Y1 koordinátái" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="Txb_X1" Grid.Row="1" Height="20" Width="75" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Txb_Y1" Grid.Row="1" Height="20" Width="75" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" TextAlignment="Center"/>
+
+            <Label x:Name="lb_masodik" Grid.Row="2" Content="X2 és Y2 koordinátái" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="Txb_X2" Grid.Row="3" Height="20" Width="75" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center" />
+            <TextBox x:Name="Txb_Y2" Grid.Row="3" Height="20" Width="75" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" TextAlignment="Center"/>
+
+            <Label x:Name="lb_harmadik" Grid.Row="4" Content="X3 és Y3 koordinátái" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="Txb_X3" Grid.Row="5" Height="20" Width="75" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Txb_Y3" Grid.Row="5" Height="20" Width="75" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" TextAlignment="Center"/>
+
+            <Label x:Name="lb_negyedik" Grid.Row="6" Content="X4 és Y4 koordinátái" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="Txb_X4" Grid.Row="7" Height="20" Width="75" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Txb_Y4" Grid.Row="7" Height="20" Width="75" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" TextAlignment="Center"/>
+
+            <Label x:Name="lb_szog" Grid.Row="8" Content="Az elforgatás szöge: " HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="Txb_szog" Grid.Row="8" Height="20" Width="75" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" TextAlignment="Center"/>
+
+            <Button x:Name="Btn_beker" Grid.Row="9" Width="75" Content="Bekérés" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Btn_beker_Click"/>
+            
+            
+
+
+
+
+        </Grid>
+        <Grid x:Name="grid_panel" Grid.Column="1" Background="LightCyan"  Height="{Binding ElementName=Txb_Y2}" Width="{Binding ElementName=Txb_X2}">
+            <!--<Grid.RenderTransform>
+                <RotateTransform Angle="{Binding}"/>
+            </Grid.RenderTransform>-->
+
+        </Grid>
+
+
+    </Grid>
+</Window>

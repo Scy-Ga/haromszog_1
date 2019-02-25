@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\bin\Debug\HszKozpontkorul.exe.config
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\bin\Debug\HszKozpontkorul.exe
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\bin\Debug\HszKozpontkorul.pdb
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul_MarkupCompile.cache
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul_MarkupCompile.lref
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.g.resources
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.Properties.Resources.resources
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.exe
+C:\Users\user\Desktop\Munka\HszKozpontkorul\HszKozpontkorul\obj\Debug\HszKozpontkorul.pdb
